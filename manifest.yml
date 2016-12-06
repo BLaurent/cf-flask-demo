@@ -1,6 +1,7 @@
 ---
 applications:
 - name: cf-flask-demo
-  memory: 128M
-  buildpack: python_buildpack
+  timeout: 160
+  memory: 1G
+  buildpack: https://github.com/cloudfoundry/python-buildpack
   command:  python app.py

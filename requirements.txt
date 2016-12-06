@@ -1,2 +1,11 @@
 Flask
 flask-cors
+numpy
+pandas
+matplotlib
+bokeh
+scikit-learn
+Theano
+xgboost
+pypugjs
+scipy
