@@ -1,11 +1,5 @@
-Flask
-flask-cors
-numpy
-pandas
-matplotlib
-bokeh
-scikit-learn
-Theano
-xgboost
-pypugjs
-scipy
+# Base requirements
+-r base.txt
+
+# TENSORFLOW: Mac OS X, CPU only, Python 2.7:
+# https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
