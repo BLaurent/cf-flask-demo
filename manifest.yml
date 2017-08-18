@@ -2,6 +2,7 @@
 applications:
 - name: cf-flask-demo
   timeout: 160
-  memory: 1G
+  memory: 256M
+  disk: 1G
   buildpack: https://github.com/heroku/heroku-buildpack-python
   command:  python app.py
